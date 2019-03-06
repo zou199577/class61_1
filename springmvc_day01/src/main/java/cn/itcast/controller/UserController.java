@@ -30,6 +30,7 @@ public class UserController {
 
         model.addAttribute("users",users);
         return "users";
+        System.out.println("22222222222222");
 
 
     }

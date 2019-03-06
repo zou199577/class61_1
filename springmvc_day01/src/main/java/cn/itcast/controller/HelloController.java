@@ -19,5 +19,8 @@ public class HelloController implements Controller {
         mv.addObject("msg","这是我第一个springmvc程序");
         mv.setViewName("hello");
         return mv;
+
+
+
     }
 }
